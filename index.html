@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAP Luc Semey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>DAP Luc Semey</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <img src="img/Foto_LucSemey.jpg" alt="Introduction Image" width="400">
+            <div>
+                <h1>Dierenarts Luc Semey</h1>
+                <p>Ik ben een dierenarts met een passie voor kleine huisdieren, vogels en exotische dieren. Na mijn ervaring in verschillende praktijken in Vlaanderen en Wallonië, begon ik in 1995 mijn eigen praktijk in Vilvoorde. Later verhuisde ik naar Grimbergen. Ik sta altijd klaar om u met raad en daad bij te staan. U kunt online een afspraak maken.</p>
+                <button onclick="document.getElementById('appointment').scrollIntoView();">Maak nu een afspraak</button>
+            </div>
+        </section>
+        <section id="appointment" class="appointment">
+            <h2>Maak een afspraak</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FBrussels&bgcolor=%23ffffff&src=eWVudGwudmRwQGhvdG1haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bmwuYmUjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>        </section>
+        <section class="location">
+                <div>
+                    <h2>Contact Form</h2>
+                    <form>
+                        <label for="voornaam">Voornaam:</label><br>
+                        <input type="text" id="voornaam" name="voornaam"><br>
+                        <label for="achternaam">Achternaam:</label><br>
+                        <input type="text" id="achternaam" name="achternaam"><br>
+                        <label for="bericht">Bericht:</label><br>
+                        <textarea id="bericht" name="bericht"></textarea><br>
+                        <button type="submit">Verzenden</button>
+                    </form>
+                </div>
+        </section>
+    </div>
+    <footer>
+        <p><strong>DAP Luc Semey</strong></p>
+        <p>Openingsuren: ma tot vrij: 9h00 - 19h00 & za: 10h00 - 12h00</p>
+        <p>Keienberglaan 5, 1850 Grimbergen, België</p>
+        <a href="https://www.facebook.com/DAPSemeyHendrix"><i class="fa fa-facebook-official"></i>
+        </a>
+    </footer>
+</body>
+</html>
